@@ -1,13 +1,23 @@
 * {
     box-sizing: border-box;
-    color: rgb(117, 117, 118);
 }
-body{
-    background-color: #e9e9e965;
+
+body {
+    margin: 0;
+    background-color: #80eecf70;
+    color: rgb(38, 94, 41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 0;
+    background-color: #a2f4dcc7;
+    color: #445b5c;
+    padding-top: 10px;
+    text-align: center;
 }
 
 img {
-    width: 80%;
+    width: 100%;
 }
 
 .grid-container {
@@ -15,14 +25,14 @@ img {
     gap: 10px;
     margin: 50px;
     columns: 220px 4;
-  
+
 }
 
 
 .cards {
     margin-top: 10px;
     break-inside: avoid;
-    border: 3px solid grey;
+    border: 3px solid rgb(106, 150, 120);
     border-radius: 7%;
     padding: 10px;
     height: fit-content;
@@ -34,9 +44,10 @@ img {
         'price price price btn';
 }
 
-.first{
+.first {
     margin-top: 0;
 }
+
 .cards h1 {
     grid-area: h1;
 }
@@ -63,8 +74,11 @@ img {
     border-radius: 20%;
     height: 40px;
     cursor: pointer;
+    background: #a5d5f8;
+    border: #63b4eed5;
+    font-family: fantasy;
 }
 
-.btn:hover{
-    background: #ececec;
+.btn:hover {
+    background: #7bbabc;
 }
